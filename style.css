@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#recipe {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+#recipe ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#recipe ul li {
+  margin-bottom: 5px;
+}
+
+#recipe p {
+  margin-bottom: 10px;
+}
+
+#star {
+  position: fixed;
+  color: gold;
+  font-size: 3rem;
+  pointer-events: none; /* Prevents the star from interfering with mouse events */
+}
